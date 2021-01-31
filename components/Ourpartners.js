@@ -9,11 +9,11 @@ function Ourpartners() {
       </div>
 
       <div className="partners_logos">
-        <img src="/partner1.png" alt="" />
-        <img src="/partner2.png" alt="" />
-        <img src="/partner3.png" alt="" />
-        <img src="/partner4.png" alt="" />
-        <img src="/partner5.png" alt="" />
+        <img src="/partner1.png" alt="" /> <div class="vl"></div>
+        <img src="/partner2.png" alt="" /> <div class="vl"></div>
+        <img src="/partner3.png" alt="" /> <div class="vl"></div>
+        <img src="/partner4.png" alt="" /> <div class="vl"></div>
+        <img src="/partner5.png" alt="" /> <div class="vl"></div>
         <img src="/partner6.png" alt="" />
       </div>
     </>

@@ -19,7 +19,8 @@ justify-content: center;}
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      margin-bottom: 7rem;
+      margin-bottom: 5rem;
+      align-items: center;
 
   }
   .partners_logos > img {
@@ -27,13 +28,7 @@ justify-content: center;}
     height: auto;
   }
 
-  .footer_menu{
-      display: flex;
-      flex-direction: column;
-  }
-
-  .footer_menu > ul >li{
-    margin-bottom: 1rem;
-font-weight: bold;
-color: white;
+  .vl {
+    border-left: 1px solid #9c9c9c62;
+    height: 5rem;
   }

@@ -21,10 +21,7 @@
 }
 .whyus-flex {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     padding: 15px;
-    align-items: flex-end;
     justify-content: flex-start;
     align-items: center;
 }
