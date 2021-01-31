@@ -5,6 +5,9 @@ import Whyus from "../components/Whyus";
 import Head from "next/head";
 import Aboutus from "../components/Aboutus";
 import Ourwork from "../components/Ourwork";
+import Youcanchoose from "../components/Youcanchoose";
+import Ourpartners from "../components/Ourpartners";
+import Footer from "../components/Footer";
 
 function index() {
   return (
@@ -16,7 +19,12 @@ function index() {
       <Hero />
       <Whyus />
       <Aboutus />
-      <Ourwork />
+
+            <Ourwork />
+            <Youcanchoose />
+            <Ourpartners />
+            <Footer />
+
     </>
   );
 }

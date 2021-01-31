@@ -1,0 +1,57 @@
+.youcanchoose_container {
+  margin-top: 5rem;
+  position: relative;
+}
+.left-choose_container > img {
+  width: 65%;
+  height: auto;
+  margin-left: -8rem;
+}
+.right-choose_container {
+  background-image: url("/right_choose.png");
+  background-repeat: no-repeat;
+  background-size: 50rem;
+  height: 95%;
+  padding: 2rem 4rem 2rem 8rem;
+  z-index: 5;
+  position: absolute;
+  top: 48px;
+  left: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 38rem; /*change-------*/
+}
+.choose_sm_container > span,
+.choose_info {
+  color: #ffffff;
+  letter-spacing: 1px;
+
+  margin-bottom: 1rem;
+  text-align: center;
+  text-align: left;
+}
+.choose_sm_container {
+  width: 14rem;
+  line-height: 1.5;
+}
+.choose_sm_container > span {
+  opacity: 0.39;
+}
+
+.choose_title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.choose_title > h2 {
+  color: #ffffff;
+}
+.choose_title > img {
+  height: 100%;
+  width: 1.8rem;
+  margin-right: 6px;
+}

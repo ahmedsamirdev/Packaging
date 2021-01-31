@@ -1,0 +1,12 @@
+.footer_container{
+    background-color: #3b5b32;
+    height: 20rem;
+    padding: 2rem 4rem;
+}
+
+.footer_logo > img{
+    width: 10rem;
+}
+.footer_menu > ul {
+    list-style-type: none;
+}
