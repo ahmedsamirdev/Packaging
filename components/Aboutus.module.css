@@ -15,6 +15,7 @@
 .aboutus_left > img {
   height: 100%;
   width: 40rem;
+  margin-left: 5rem;
 }
 .aboutus_right {
   color: #3b5b32;
