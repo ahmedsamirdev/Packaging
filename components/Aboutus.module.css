@@ -1,14 +1,16 @@
 .aboutus_container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 100rem;
+}
+.aboutus_wrapper {
 }
 .aboutus_left {
   background-image: url("/aboutus_bg.png");
   background-repeat: no-repeat;
   background-size: 38rem;
   background-position: right;
-  background-position-x: -100px;
+  background-position-x: -5px;
+  background-position-y: -50px;
 }
 .aboutus_left > img {
   height: 100%;
@@ -17,7 +19,7 @@
 .aboutus_right {
   color: #3b5b32;
   font-weight: bold;
-  padding: 0 8rem;
+  padding: 11rem 8rem;
 }
 .aboutus_title {
   display: flex;

@@ -4,18 +4,20 @@ import Hero from "../components/Hero";
 import Whyus from "../components/Whyus";
 import Head from "next/head";
 import Aboutus from "../components/Aboutus";
+import Ourwork from "../components/Ourwork";
 
 function index() {
   return (
     <>
       <Head>
-        <title>Order Your Custom Packaging</title>
+        <title>Food Packaging</title>
       </Head>
       <Navbar />
       <Hero />
       <Whyus />
-        <Aboutus />
-  </>
+      <Aboutus />
+      <Ourwork />
+    </>
   );
 }
 
