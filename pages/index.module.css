@@ -15,10 +15,5 @@
 body {
   background-color: #ffffff;
   font-family: "Poppins";
-  height: 580px;
-  background-image: url("/hero_bg.png");
-  border-radius: 0rem 0rem 0rem 5rem;
-  background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: right;
+
 }

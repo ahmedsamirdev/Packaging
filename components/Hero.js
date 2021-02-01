@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero_container">
         <div className="left_hero">
             <span>We pack your product with care.</span>
-            <a href="">Contact us</a>
+            <a href="/">Contact us</a>
         </div>
         <div className="right_hero">
             <img src="/hero_1.png" alt="" className="hero1"/>
