@@ -2,20 +2,16 @@
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+
 }
 
 .ourwork_title {
-  padding: 0 25rem;
   display: flex;
   justify-content: center;
-  text-align: center;
-  flex-direction: row;
-  margin-top: 5rem;
   margin-bottom: 1.5rem;
 }
 .ourwork_title > h2 {
   color: #3b5b32;
-  font-weight: bold;
   border-bottom: solid #9aa840 2px;
 }
 .ourwork_title > img {
@@ -29,11 +25,10 @@
   justify-content: center;
   text-align: center;
 }
-.ourwork_info > h5 {
+.ourwork_info > h4 {
   color: #3b5b32;
-  display: flex;
-  justify-content: center;
-  width: 350px;
+
+  width: 25rem;
 }
 .package_wrapper {
   display: flex;

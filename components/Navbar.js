@@ -5,31 +5,44 @@ function Navbar() {
   return (
     <>
       <div className="navbar_container">
-      <img src="/logo.png" alt="" className="nav_logo" />
+        <img src="/logo.png" alt="" className="nav_logo" />
 
-        <div className="hidden">
-          <div id="menuToggle">
-            <input type="checkbox" />
+        <ul className="menu_nav">
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/">
+            <li>About</li>
+          </Link>
+          <Link href="/">
+            <li>Our projects</li>
+          </Link>
+          <Link href="/">
+            <li>Contact us</li>
+          </Link>
+        </ul>
 
-            <span></span>
-            <span></span>
-            <span></span>
+        <div id="menuToggle">
+          <input type="checkbox" />
 
-            <ul id="menu">
-              <Link href="/">
-                <li>Home</li>
-              </Link>
-              <Link href="/">
-                <li>About</li>
-              </Link>
-              <Link href="/">
-                <li>Our projects</li>
-              </Link>
-              <Link href="/">
-                <li>Contact us</li>
-              </Link>
-            </ul>
-          </div>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <Link href="/">
+              <li>Home</li>
+            </Link>
+            <Link href="/">
+              <li>About</li>
+            </Link>
+            <Link href="/">
+              <li>Our projects</li>
+            </Link>
+            <Link href="/">
+              <li>Contact us</li>
+            </Link>
+          </ul>
         </div>
       </div>
     </>
