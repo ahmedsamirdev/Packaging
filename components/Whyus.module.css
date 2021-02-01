@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .whyus_title > h2 {
@@ -34,7 +35,7 @@
 }
 .whyus-flex {
   display: flex;
-  padding: 15px;
+
   justify-content: flex-start;
   align-items: center;
 }
@@ -44,7 +45,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 2.5rem;
+  padding: 1.5rem;
 }
 
 .whyus_container > img {
