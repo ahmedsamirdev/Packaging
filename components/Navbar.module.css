@@ -8,7 +8,7 @@
   margin: 0 auto;
   position: relative;
 }
-.nav_logo {
+.nav_logo, .nav_logo_mobile {
   width: 6rem;
   height: auto;
   cursor: pointer;
@@ -24,7 +24,7 @@
   color: white;
 }
 @media only screen and (max-width: 600px) {
-  .menu_nav {
+  .menu_nav,.nav_logo {
     display: none;
   }
 }
@@ -78,7 +78,7 @@
   margin-bottom: 5px;
   position: relative;
 
-  background: #3b5b32;
+  background: #ffffff;
   border-radius: 3px;
 
   z-index: 1;
@@ -116,7 +116,7 @@
   margin-top: 1rem;
   position: absolute;
   width: 400px;
-  margin: -40px -150px;
+  margin: -57px -150px;
   padding: 40px;
   background: #fff;
   list-style-type: none;

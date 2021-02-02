@@ -1,6 +1,7 @@
 .whyus_wrapper {
   width: 85%;
   margin: 0 auto;
+  padding: 5rem 0;
 }
 @media only screen and (max-width: 550px) {
   .whyus-flex {
@@ -10,10 +11,7 @@
     display: none;
   }
   .whyus_wrapper {
-    margin: 4rem auto !important;
-  }
-  .whyus_container {
-    padding: 2.5rem 0rem !important;
+    padding: 4rem 0;
   }
 }
 .whyus_title {
@@ -45,7 +43,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: .5rem;
 }
 
 .whyus_container > img {

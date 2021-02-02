@@ -15,5 +15,21 @@
 body {
   background-color: #ffffff;
   font-family: "Poppins";
-
+  background-image: url("/hero_bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 55vw 55vh;
 }
+
+@media (min-width: 320px) and (max-width: 480px) /*mobile*/ {
+  body {
+    background-size: 95vw 70vh !important;
+  }
+}
+
+@media (min-width: 1281px) /*desktop*/ {
+  body {
+    background-size: 59vw 58vh !important;
+  }
+}
+
