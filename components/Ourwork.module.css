@@ -31,8 +31,9 @@
   width: 25rem;
 }
 .package_wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 3rem;
   width: 85%;
   margin: 0 auto;
   margin-top: 2%;

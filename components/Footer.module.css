@@ -57,3 +57,35 @@
 .footer_adress {
   width: 15rem;
 }
+
+@media all and (max-width: 550px) {
+  .footer_container {
+    padding: 1rem 1rem;
+  }
+  .footer_logo {
+    display: none;
+  }
+  .footer_menu > ul > li {
+    margin: 0rem 5rem 1.8rem 0rem;
+  }
+  .footer_menu > ul {
+    font-size: 15px;
+    width: max-content;
+  }
+  .footer_menu,
+  .footer_email {
+    width: 32vw;
+  }
+  .footer_email,
+  .footer_phone {
+    margin-bottom: 1rem;
+  }
+  .footer_contact {
+    width: 55%;
+  }
+  .column_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

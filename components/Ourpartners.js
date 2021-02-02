@@ -1,6 +1,7 @@
 import "./Ourpartners.module.css";
 
 function Ourpartners() {
+
   return (
     <>
       <div className="ourpartners_title">
