@@ -4,8 +4,8 @@ function Footer() {
   return (
     <>
       <div className="footer_container">
-        <div className="footer_logo">
-          <img src="/footer_logo.png" alt="" />
+        <div className="footer_logo_container">
+          <img src="/footer_logo.png" alt="" className="footer_logo" />
         </div>
         <div className="footer_menu">
           <ul>
