@@ -19,12 +19,12 @@ function Ourpartners() {
 
       <div className="ourpartners_slider">
         <div className="slider">
-          <img src="/partner1.png" alt="Slide 1" />
-          <img src="/partner2.png" alt="Slide 2" />
-          <img src="/partner3.png" alt="Slide 3" />
-          <img src="/partner4.png" alt="Slide 4" />
-          <img src="/partner5.png" alt="Slide 5" />
-          <img src="/partner6.png" alt="Slide 6" />
+          <img src="/partner1.png" alt="" />
+          <img src="/partner2.png" alt="" />
+          <img src="/partner3.png" alt="" />
+          <img src="/partner4.png" alt="" />
+          <img src="/partner5.png" alt="" />
+          <img src="/partner6.png" alt="" />
         </div>
       </div>
     </>
