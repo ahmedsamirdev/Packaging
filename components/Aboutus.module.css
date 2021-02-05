@@ -28,7 +28,7 @@
   border-radius: 0px 0px 150px 0px;
   background: linear-gradient(#56804b 0%, #3b5b32 100%);
   border: 1px solid #707070;
-  height: 90vh;
+  height: 80vh;
   width: 40vw;
 }
 .desc_container {
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: column !important;
     background: #56804b;
-    height: 112.4vh;
+    height: 100vh;
   }
 
   .bg_aboutus {
@@ -89,7 +89,7 @@
     width: 100% !important;
     padding: 1rem 1rem !important;
     position: absolute;
-    top: 125rem;
+    top: 140rem;
     border: #56804b33 4px solid;
   }
 
