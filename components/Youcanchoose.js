@@ -5,7 +5,8 @@ function Youcanchoose() {
     <>
       <div className="youcanchoose_container">
         <div className="up"></div>
-        <div className="left-choose_container"></div>
+        <div className="left-choose_container">
+        </div>
         <div className="right-choose_container">
           <div className="choose_title">
             <img src="/choose_leaf.png" alt="" />

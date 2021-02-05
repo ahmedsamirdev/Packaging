@@ -2,7 +2,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 2.5fr 2fr 1.75fr 1fr;
-  grid-template-rows: 0.5fr 2.5fr 0.5fr 0fr;
+  grid-template-rows: 0.5fr 2.5fr 0.2fr 0.1fr;
   grid-template-areas:
     "y-up y-up y-right y-right"
     "y-left y-left y-right y-right"
@@ -12,8 +12,11 @@
 }
 
 .left-choose_container {
-  background: green;
   grid-area: y-left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -59px;
+  background-image: url("/you_left.png");
 }
 
 .right-choose_container {
@@ -35,10 +38,8 @@
   flex-direction: row;
 }
 .choose_info:before {
-    content: url(/arrow.svg);
-    margin: 0 2px;
-
-
+  /* content: url(/arrow.svg); */
+  margin: 0 2px;
 }
 .choose_sm_container {
   width: 14rem;
@@ -46,7 +47,6 @@
 }
 .choose_sm_container > span {
   opacity: 0.39;
-
 }
 
 .choose_title {
@@ -71,4 +71,23 @@
 .down {
   background: white;
   grid-area: y-down;
+}
+
+@media (min-width: 320px) and (max-width: 840px) /*mobile*/ {
+  .youcanchoose_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-choose_container{
+    padding: 2rem 0;
+  }
+  .left-choose_container{
+    display: none;
+  }
+  .down{
+    display: none;
+  }
+  .up{
+    display: none;
+  }
 }

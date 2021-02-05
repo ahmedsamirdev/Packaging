@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 480px) /*mobile*/ {
+@media (min-width: 320px) and (max-width: 840px) /*mobile*/ {
   .aboutus_container {
     background-color: #4a6f40;
     display: flex;
@@ -90,7 +90,7 @@
     padding: 1rem 1rem !important;
     position: absolute;
     top: 125rem;
-    border: #56804b 4px solid;
+    border: #56804b33 4px solid;
   }
 
   .aboutus_left {

@@ -1,6 +1,6 @@
 .ourpartners_title {
-  margin-top: 5rem;
   display: flex;
+  margin-top: 2rem;
   justify-content: center;
 }
 .ourpartners_title > h2 {
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 5rem;
+  margin-bottom: rem;
   align-items: center;
 }
 .partners_logos > img {
@@ -42,9 +42,12 @@
   height: 5rem;
 }
 
-@media (min-width: 320px) and (max-width: 480px) /*mobile*/ {
+@media (min-width: 320px) and (max-width: 1000px) /*mobile*/ {
   .partners_logos {
     display: none !important;
+  }
+  .ourpartners_title{
+    margin-top: -3rem;
   }
 }
 
