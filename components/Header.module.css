@@ -94,8 +94,8 @@
 .pattern {
   position: absolute;
   left: -100px;
-  top: 750px;
-  width: 25rem;
+  top: 650px;
+  width: 20rem;
   height: auto;
   overflow: hidden;
 }
@@ -188,6 +188,7 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+      justify-content: center;
 }
 .hero2 {
   width: 60%;
@@ -219,7 +220,6 @@
   margin-right: 2rem;
   cursor: pointer;
   color: white;
-  font-size: 1.2rem;
   font-weight: 600;
 }
 @media only screen and (max-width: 600px) {

@@ -1,36 +1,44 @@
 .youcanchoose_container {
-  margin-top: 5rem;
-  position: relative;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 2.5fr 2fr 1.75fr 1fr;
+  grid-template-rows: 0.5fr 2.5fr 0.5fr 0fr;
+  grid-template-areas:
+    "y-up y-up y-right y-right"
+    "y-left y-left y-right y-right"
+    "y-left y-left y-down y-down"
+    "y-left y-left y-down y-down";
+  margin-top: 3rem;
 }
-.left-choose_container > img {
-  width: 65%;
-  height: auto;
-  margin-left: -8rem;
+
+.left-choose_container {
+  background: green;
+  grid-area: y-left;
 }
+
 .right-choose_container {
-  background-image: url("/right_choose.png");
-  background-repeat: no-repeat;
-  background-size: 50rem;
-  height: 95%;
-  padding: 2rem 4rem 2rem 8rem;
-  z-index: 5;
-  position: absolute;
-  top: 48px;
-  left: 760px;
+  grid-area: y-right;
+  border-radius: 0px 0px 0px 150px;
+  background: linear-gradient(#56804b 0%, #3b5b32 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 38rem; /*change-------*/
 }
 .choose_sm_container > span,
 .choose_info {
   color: #ffffff;
   letter-spacing: 1px;
-
   margin-bottom: 1rem;
   text-align: center;
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.choose_info:before {
+    content: url(/arrow.svg);
+    margin: 0 2px;
+
+
 }
 .choose_sm_container {
   width: 14rem;
@@ -38,6 +46,7 @@
 }
 .choose_sm_container > span {
   opacity: 0.39;
+
 }
 
 .choose_title {
@@ -54,4 +63,12 @@
   height: 100%;
   width: 1.8rem;
   margin-right: 6px;
+}
+.up {
+  background: white;
+  grid-area: y-up;
+}
+.down {
+  background: white;
+  grid-area: y-down;
 }

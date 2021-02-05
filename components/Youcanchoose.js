@@ -4,9 +4,8 @@ function Youcanchoose() {
   return (
     <>
       <div className="youcanchoose_container">
-        <div className="left-choose_container">
-          <img src="/left_choose.png" alt="" />
-        </div>
+        <div className="up"></div>
+        <div className="left-choose_container"></div>
         <div className="right-choose_container">
           <div className="choose_title">
             <img src="/choose_leaf.png" alt="" />
@@ -34,6 +33,7 @@ function Youcanchoose() {
             </span>
           </div>
         </div>
+        <div className="down"></div>
       </div>
     </>
   );

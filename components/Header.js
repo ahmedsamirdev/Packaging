@@ -5,10 +5,10 @@ function Header() {
   return (
     <>
       <div className="hero_container">
-      <div class="left_content_formobile">
-            <span>We pack your product with care.</span>
-            <a href="/">Contact us</a>
-          </div>
+        <div class="left_content_formobile">
+          <span>We pack your product with care.</span>
+          <a href="/">Contact us</a>
+        </div>
         <div className="left_container margin-center">
           {/* Left_Navbar */}
           <div className="left_navbar ">
@@ -21,7 +21,7 @@ function Header() {
             </picture>
           </div>
           {/* Left_Content */}
-       
+
           <div className="left_content">
             <span>We pack your product with care.</span>
             <a href="/">Contact us</a>
@@ -40,31 +40,31 @@ function Header() {
               <span></span>
 
               <ul id="menu">
-                <Link href="/">
+                <Link rel="preload" href="/">
                   <li>Home</li>
                 </Link>
-                <Link href="/">
+                <Link rel="preload" href="/">
                   <li>About</li>
                 </Link>
-                <Link href="/">
+                <Link rel="preload" href="/">
                   <li>Our projects</li>
                 </Link>
-                <Link href="/">
+                <Link rel="preload" href="/">
                   <li>Contact us</li>
                 </Link>
               </ul>
             </div>
             <ul className="menu_nav">
-              <Link href="/">
+              <Link rel="preload" href="/">
                 <li>Home</li>
               </Link>
-              <Link href="/">
+              <Link rel="preload" href="/">
                 <li>About</li>
               </Link>
-              <Link href="/">
+              <Link rel="preload" href="/">
                 <li>Our projects</li>
               </Link>
-              <Link href="/">
+              <Link rel="preload" href="/">
                 <li>Contact us</li>
               </Link>
             </ul>
