@@ -11,9 +11,9 @@
   margin: 0;
   box-sizing: border-box;
   letter-spacing: 0.5px;
+  overflow-x: hidden !important;
 }
 body {
   background-color: #ffffff;
   font-family: "Poppins";
-  overflow-x: hidden;
 }
