@@ -231,107 +231,116 @@
   }
 }
 @media (min-width: 1100px) /*desktop*/ {
-  #menuToggle {
+  .hamburger_menu {
     display: none !important;
   }
   .left_content_formobile {
     display: none !important;
   }
 }
-#menuToggle {
-  display: block;
-  position: relative;
-  z-index: 1;
-  -webkit-user-select: none;
+
+.hamburger_menu{
+  animation: bugfix infinite 1s;
+}
+
+@keyframes bugfix {
+  from {
+    padding: 0;
+ }
+  to {
+    padding: 0;
+ }
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+ }
+  to {
+    padding: 0;
+ }
+}
+#overlay-button {
+  position: absolute;
+  right: 2em;
+  top: 3em;
+  padding: 26px 11px;
+  z-index: 5;
+  cursor: pointer;
   user-select: none;
 }
-
-#menuToggle a {
-  text-decoration: none;
-  color: #3b5b32;
-  transition: color 0.3s ease;
-}
-
-#menuToggle a:hover {
-  color: #3b5b32;
-}
-
-#menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 2;
-  -webkit-touch-callout: none;
-}
-
-#menuToggle span {
-  display: block;
-  width: 30px;
-  height: 3px;
-  margin-bottom: 5px;
+#overlay-button span {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
   position: relative;
-
-  background: #ffffff;
-  border-radius: 3px;
-
-  z-index: 1;
-
-  transform-origin: 4px 0px;
-
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  display: block;
+  transition: all 0.2s ease-in-out;
 }
-
-#menuToggle span:first-child {
-  transform-origin: 0% 0%;
+#overlay-button span:before {
+  top: -10px;
+  visibility: visible;
 }
-
-#menuToggle span:nth-last-child(2) {
-  transform-origin: 0% 100%;
+#overlay-button span:after {
+  top: 10px;
 }
-
-#menuToggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #3b5b32;
-}
-
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-#menu {
-  margin-top: 1rem;
+#overlay-button span:before, #overlay-button span:after {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: white;
   position: absolute;
-  width: 400px;
-  margin: -57px -150px;
-  padding: 40px;
-  background: #fff;
+  content: "";
+  transition: all 0.2s ease-in-out;
+}
+#overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
+  background: #333332;
+}
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked ~ #overlay {
+  visibility: visible;
+  right: -2px;
+  color: #4f7644;
+  top: 100px;
+}
+input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
+  background: transparent;
+}
+input[type=checkbox]:checked ~ #overlay-button span:before {
+  transform: rotate(45deg) translate(7px, 7px);
+  opacity: 1;
+}
+input[type=checkbox]:checked ~ #overlay-button span:after {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+#overlay {
+  width: 50vw;
+  background: white;
+  z-index: 2;
+  visibility: hidden;
+  position: absolute;
+}
+#overlay.active {
+  visibility: visible;
+}
+#overlay ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 0;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  transform: translate(100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
-  cursor: pointer;
-  color: #3b5b32;
+#overlay ul li {
+  padding: 1em;cursor: pointer;
 }
-#menu li:hover {
-  color: #0a0a0a;
+#overlay ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
 }
-#menuToggle input:checked ~ ul {
-  transform: none;
+#overlay ul li a:hover {
+  color: #333332;
 }

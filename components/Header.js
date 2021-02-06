@@ -32,15 +32,12 @@ function Header() {
           <img src="/header-pattern.png" alt="" className="pattern" />
           {/* right_Navbar */}
           <div className="right_navbar ">
-            <div id="menuToggle">
-              <input type="checkbox" />
-
-              <span></span>
-              <span></span>
-              <span></span>
-
-              <ul id="menu">
-                <Link rel="preload" href="/">
+            <div className="hamburger_menu">
+          <input type="checkbox" id="overlay-input" />
+<label for="overlay-input" id="overlay-button"><span></span></label>
+  <div id="overlay">
+    <ul>
+    <Link rel="preload" href="/">
                   <li>Home</li>
                 </Link>
                 <Link rel="preload" href="/">
@@ -52,8 +49,8 @@ function Header() {
                 <Link rel="preload" href="/">
                   <li>Contact us</li>
                 </Link>
-              </ul>
-            </div>
+    </ul>
+  </div></div>
             <ul className="menu_nav">
               <Link rel="preload" href="/">
                 <li>Home</li>
