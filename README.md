@@ -1,7 +1,7 @@
 
 
 ### Packaging (Landing Page)
-Order your custom packaging online
+Company for Packaging Food
 
 #### [Live version](https://packaging.vercel.app)
 ______________________________________________________
