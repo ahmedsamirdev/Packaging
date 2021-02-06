@@ -1,11 +1,12 @@
 import "./Header.module.css";
 import Link from "next/link";
+import { useEffect } from 'react';
 
 function Header() {
   return (
     <>
       <div className="hero_container">
-        <div class="left_content_formobile">
+        <div className="left_content_formobile">
           <span>We pack your product with care.</span>
           <a href="/">Contact us</a>
         </div>
@@ -32,25 +33,20 @@ function Header() {
           <img src="/header-pattern.png" alt="" className="pattern" />
           {/* right_Navbar */}
           <div className="right_navbar ">
-            <div className="hamburger_menu">
-          <input type="checkbox" id="overlay-input" />
-<label for="overlay-input" id="overlay-button"><span></span></label>
-  <div id="overlay">
-    <ul>
-    <Link rel="preload" href="/">
-                  <li>Home</li>
-                </Link>
-                <Link rel="preload" href="/">
-                  <li>About</li>
-                </Link>
-                <Link rel="preload" href="/">
-                  <li>Our projects</li>
-                </Link>
-                <Link rel="preload" href="/">
-                  <li>Contact us</li>
-                </Link>
+            
+          <div className="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label className="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul className="menu__box">
+    <li><a className="menu__item"href="#">Home   </a></li>
+                  <li><a className="menu__item"href="#">About   </a></li>         
+                  <li><a className="menu__item"href="#">Our projects   </a></li>
+                  <li><a className="menu__item"href="#">Contact us    </a></li>
     </ul>
-  </div></div>
+  </div>
             <ul className="menu_nav">
               <Link rel="preload" href="/">
                 <li>Home</li>
