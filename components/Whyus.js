@@ -5,12 +5,12 @@ function Whyus() {
     <>
       <div className="whyus_wrapper">
         <div className="whyus_title">
-          <img src="/whyus_leaf.png" alt="" />
+          <img src="/whyus_leaf.webp" alt="" />
           <h2>Why us</h2>
         </div>
         <div className="whyus-flex">
           <div className="whyus_container">
-            <img src="/whyus_1.png" alt="" />
+            <img src="/whyus_1.webp" alt="" />
             <h4>Our customer care</h4>
             <p>
               We strive continuously to anticipate customers
@@ -21,7 +21,7 @@ function Whyus() {
           <div class="w-vl"></div>
 
           <div className="whyus_container">
-            <img src="/whyus_2.png" alt="" />
+            <img src="/whyus_2.webp" alt="" />
             <h4>Design Creativity</h4>
             <p>
               We offer customers the widest array of design, engineering and
@@ -31,7 +31,7 @@ function Whyus() {
           <div class="w-vl"></div>
 
           <div className="whyus_container">
-            <img src="/whyus_3.png" alt="" />
+            <img src="/whyus_3.webp" alt="" />
             <h4>Quality packaging</h4>
             <p>
               With our leading plastics technologies we provide

@@ -5,7 +5,7 @@ function Ourwork() {
     <>
       <div className="ourwork_container">
         <div className="ourwork_title">
-          <img src="/whyus_leaf.png" alt="" />
+          <img src="/whyus_leaf.webp" alt="" />
           <h2>Our work</h2>
         </div>
         <div className="ourwork_info">
@@ -17,28 +17,28 @@ function Ourwork() {
         <div className="package_wrapper">
           <div className="package_container">
             <div className="package-imgs">
-              <img className="package-img" src="/package1.png" alt="" />
-              <img className="package-circle" src="/circle.png" alt="" />
+              <img className="package-img" src="/package1.webp" alt="" />
+              <img className="package-circle" src="/circle.webp" alt="" />
             </div>
           </div>
 
           <div className="package_container">
             <div className="package-imgs">
-              <img className="package-img" src="/package2.png" alt="" />
-              <img className="package-circle" src="/circle.png" alt="" />
+              <img className="package-img" src="/package2.webp" alt="" />
+              <img className="package-circle" src="/circle.webp" alt="" />
             </div>
           </div>
           <div className="package_container">
             <div className="package-imgs">
-              <img className="package-img" src="/package2.png" alt="" />
-              <img className="package-circle" src="/circle.png" alt="" />
+              <img className="package-img" src="/package2.webp" alt="" />
+              <img className="package-circle" src="/circle.webp" alt="" />
             </div>
           </div>
 
           <div className="package_container">
             <div className="package-imgs">
-              <img className="package-img" src="/package4.png" alt="" />
-              <img className="package-circle" src="/circle.png" alt="" />
+              <img className="package-img" src="/package4.webp" alt="" />
+              <img className="package-circle" src="/circle.webp" alt="" />
             </div>
           </div>
         </div>

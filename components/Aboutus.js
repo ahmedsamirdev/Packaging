@@ -5,14 +5,14 @@ function Aboutus() {
     <>
       <div className="aboutus_container">
         <div className="bg_container">
-          <img src="/about-leaf.png" alt="" className="a-pattern"/>
+          <img src="/choose_leaf.webp" alt="" className="a-pattern"/>
           <div className="bg_aboutus">
-            <img src="/aboutus_left.png" alt="" className="aboutus_left" />
+            <img src="/aboutus_left.webp" alt="" className="aboutus_left" />
           </div>
         </div>
         <div className="desc_container">
           <div className="aboutus_title">
-            <img src="/whyus_leaf.png" alt="" />
+            <img src="/whyus_leaf.webp" alt="" />
             <h2>About us</h2>
           </div>
           <span className="aboutus_span">

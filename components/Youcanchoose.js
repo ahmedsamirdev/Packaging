@@ -8,7 +8,7 @@ function Youcanchoose() {
         <div className="left-choose_container"></div>
         <div className="right-choose_container">
           <div className="choose_title">
-            <img src="/choose_leaf.png" alt="" />
+            <img src="/choose_leaf.webp" alt="" />
             <h2>You can choose</h2>
           </div>
           <div className="choose_sm_container">

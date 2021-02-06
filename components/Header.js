@@ -13,12 +13,12 @@ function Header() {
         <div className="left_container margin-center">
           {/* Left_Navbar */}
           <div className="left_navbar ">
-            <img src="/logo.png" alt="" className="nav_logo" />
-            <img src="/footer_logo.png" alt="" className="nav_logo_mobile" />
+            <img src="/logo.webp" alt="" className="nav_logo" />
+            <img src="/footer_logo.webp" alt="" className="nav_logo_mobile" />
 
             <picture>
-              <source media="(min-width: 650px)" srcset="/logo.png" />
-              <source media="(min-width: 465px)" srcset="/footer_logo.png" />
+              <source media="(min-width: 650px)" srcset="/logo.webp" />
+              <source media="(min-width: 465px)" srcset="/footer_logo.webp" />
             </picture>
           </div>
           {/* Left_Content */}
@@ -30,7 +30,7 @@ function Header() {
         </div>
         {/* -------------------------------------------------------- */}
         <div className="right_container">
-          <img src="/header-pattern.png" alt="" className="pattern" />
+          <img src="/header-pattern.webp" alt="" className="pattern" />
           {/* right_Navbar */}
           <div className="right_navbar ">
             
@@ -64,9 +64,9 @@ function Header() {
           </div>
           {/* Right_Content */}
           <div className="right_content">
-            <img src="/hero_1.png" alt="" className="hero1" />
-            <img src="/hero_2.png" alt="" className="hero2" />
-            <img src="/hero_3.png" alt="" className="hero3" />
+            <img src="/hero_1.webp" alt="" className="hero1" />
+            <img src="/hero_2.webp" alt="" className="hero2" />
+            <img src="/hero_3.webp" alt="" className="hero3" />
           </div>
         </div>
       </div>

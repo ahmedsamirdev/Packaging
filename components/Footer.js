@@ -5,7 +5,7 @@ function Footer() {
     <>
       <div className="footer_container">
         <div className="footer_logo_container">
-          <img src="/footer_logo.png" alt="" className="footer_logo" />
+          <img src="/footer_logo.webp" alt="" className="footer_logo" />
         </div>
         <div className="footer_menu">
           <ul>
@@ -18,17 +18,17 @@ function Footer() {
         <div className="column_mobile">
           <div className="footer_contact">
             <div className="footer_email">
-              <img src="/mail.png" alt="" />
+              <img src="/mail.webp" alt="" />
               <span>mail.mail@gmail.com</span>
             </div>
             <div className="footer_phone">
-              <img src="/phone-call.png" alt="" />
+              <img src="/phone-call.webp" alt="" />
               <span>00256489655566</span>
             </div>
           </div>
           <div className="footer_adress">
             <div className="footer_adress-container">
-              <img src="/location.png" alt="" />
+              <img src="/location.webp" alt="" />
               <span>
                 155 Mohamed Farid Street - Cairo. Helwan. 35 A Mostafa El
                 Maraghy St. - Near Helwan metro station.
