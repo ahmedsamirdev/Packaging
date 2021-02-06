@@ -33,8 +33,7 @@
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 1rem;
-  text-align: center;
-  display: flex;
+  text-align: left;  display: flex;
   flex-direction: row;
 }
 .choose_info:before {
@@ -42,7 +41,7 @@
   margin: 0 2px;
 }
 .choose_sm_container {
-  width: 14rem;
+  width: 21rem;
   line-height: 1.5;
 }
 .choose_sm_container > span {
@@ -89,5 +88,8 @@
   }
   .up{
     display: none;
+  }
+  .choose_sm_container{
+    width: 15rem;
   }
 }

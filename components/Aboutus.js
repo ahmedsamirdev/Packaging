@@ -5,6 +5,7 @@ function Aboutus() {
     <>
       <div className="aboutus_container">
         <div className="bg_container">
+          <img src="/about-leaf.png" alt="" className="a-pattern"/>
           <div className="bg_aboutus">
             <img src="/aboutus_left.png" alt="" className="aboutus_left" />
           </div>
@@ -15,10 +16,9 @@ function Aboutus() {
             <h2>About us</h2>
           </div>
           <span className="aboutus_span">
-            It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem.
+            National Company for Packaging Industries was established in 1997,
+            Our 1st Production was in 1999. Ibeeca is the market leader in
+            Food & Beverage.
           </span>
           <h3>More .. </h3>
         </div>

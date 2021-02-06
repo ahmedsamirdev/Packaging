@@ -103,11 +103,9 @@
   width: 85%;
 }
 .left_container {
-  background: blue;
   grid-area: left;
 }
 .right_container {
-  background: green;
   grid-area: right;
 }
 
@@ -116,8 +114,8 @@
   background-color: white;
 }
 .left_navbar {
-  padding: 1rem 1rem;
-  margin-bottom: 8rem;
+  padding: 1rem 0;
+    margin-bottom: 8rem;
 }
 .nav_logo,
 .nav_logo_mobile {
@@ -231,7 +229,7 @@
   }
 }
 @media (min-width: 1100px) /*desktop*/ {
-  .hamburger_menu {
+  .menu__btn {
     display: none !important;
   }
   .left_content_formobile {
@@ -263,12 +261,9 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 45px;
-  right: 20px;
-
+  top: 60px;  right: 60px;
   width: 26px;
   height: 26px;
-
   cursor: pointer;
   z-index: 1;
 }

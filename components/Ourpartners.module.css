@@ -46,9 +46,7 @@
   .partners_logos {
     display: none !important;
   }
-  .ourpartners_title{
-    margin-top: -3rem;
-  }
+
 }
 
 @media (min-width: 1281px) /*desktop*/ {

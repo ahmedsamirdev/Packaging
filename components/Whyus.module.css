@@ -7,7 +7,7 @@
   .whyus-flex {
     flex-direction: column;
   }
-  .vl {
+  .w-vl {
     display: none;
   }
 
@@ -54,7 +54,8 @@
   margin-bottom: 1rem;
 }
 
-.vl {
+.w-vl {
   border-left: 1px solid #9c9c9c9a;
-  height: 10rem;
+  height: 5rem;
+
 }
