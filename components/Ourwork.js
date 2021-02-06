@@ -10,8 +10,8 @@ function Ourwork() {
         </div>
         <div className="ourwork_info">
           <h4>
-            Ibeeca provides a wide range of packaging products for Food & beverage and chemical. By
-            producing plastic tubes, Bottles, Jars, Caps.
+            Ibeeca provides a wide range of packaging products for Food & beverage. By
+            producing plastic tubes, Bottles, Jars.
           </h4>
         </div>
         <div className="package_wrapper">
