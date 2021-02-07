@@ -10,7 +10,3 @@ HTML5 and CSS3<br>
 ReactJs<br>
 NextJs<br>
 Mobile Responsive<br>
-
-###### [UI/UX](https://www.behance.net/nawalrahme2d9c)
-
- 
