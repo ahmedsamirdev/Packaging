@@ -11,6 +11,6 @@ ReactJs<br>
 NextJs<br>
 Mobile Responsive<br>
 
-###### [Designed by](https://www.behance.net/nawalrahme2d9c)
+###### [UI/UX](https://www.behance.net/nawalrahme2d9c)
 
  
