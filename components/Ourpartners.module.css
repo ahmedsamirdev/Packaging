@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: rem;
   align-items: center;
 }
 .partners_logos > img {

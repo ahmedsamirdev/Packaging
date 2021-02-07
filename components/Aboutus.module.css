@@ -9,7 +9,6 @@
     "bg bg desc desc";
   grid-gap: 0.2rem;
   position: relative;
-
 }
 
 .bg_container {
@@ -84,13 +83,14 @@
 
   .bg_aboutus {
     background: none;
-    width: 0vw;
+    height: 100vh !important;
   }
   .desc_container {
     width: 100% !important;
     padding: 3rem 1rem !important;
     position: absolute;
-    top: 29rem;    border: #56804b33 4px solid;
+    top: 29rem;
+    border: #56804b33 4px solid;
   }
 
   .aboutus_left {
@@ -98,9 +98,9 @@
     position: absolute;
     left: 0px;
   }
-.a-pattern{
-  display: none;
-}
+  .a-pattern {
+    display: none;
+  }
 }
 
 .a-pattern {
@@ -110,4 +110,3 @@
   width: 15rem;
   height: auto;
 }
-

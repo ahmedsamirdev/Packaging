@@ -6,6 +6,7 @@ function Footer() {
       <div className="footer_container">
         <div className="footer_logo_container">
           <img src="/footer_logo.webp" alt="" className="footer_logo" />
+          <span>Designed by <a href="https://www.behance.net/nawalrahme2d9c">N.A.</a></span>
         </div>
         <div className="footer_menu">
           <ul>
